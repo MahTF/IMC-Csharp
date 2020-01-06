@@ -31,5 +31,7 @@ Ao baixar e rodar o executavel, o mesmo irá te solicitar que coloque seu peso e
 
 ### Curiosidades
 _A menor pessoa do mundo, mede 62,8 e é Indiana_
+
 _A maior pessoa do mundo, mede 2,465 metros e nasceu na Turquia_ 
+
 _Para confirir uma foto dos dois juntos, clique [aqui](https://g1.globo.com/turismo-e-viagem/noticia/homem-mais-alto-do-mundo-e-mulher-mais-baixa-do-mundo-se-encontram-no-egito.ghtml)_
