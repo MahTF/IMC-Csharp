@@ -1,11 +1,9 @@
 # Cálcular IMC
-___
 _Esse projeto tem como sua príncipal função realizar o cálculo do índice de massa corporal do usuário._
 
 _O projeto foi escrito na linguagem C#._
 
 ## IMC
-___
 - O que é IMC?
 IMC é o índice de massa corporal de uma pessoa,esse índice é para determinar se o peso de uma pessoa está normal ou não.
 - Como é calculado o IMC?
@@ -28,12 +26,10 @@ O índice pega o resultado dessa conta e categoriza dentro da tabela abaixo. Os 
 
 
 ## Como usar
-___
 Ao baixar e rodar o executavel, o mesmo irá te solicitar que coloque seu peso e altura.
 
 
 ### Curiosidades
-___
 _A menor pessoa do mundo, mede 62,8 e é Indiana_
 _A maior pessoa do mundo, mede 2,465 metros e nasceu na Turquia_ 
 _Para confirir uma foto dos dois juntos, clique [aqui](https://g1.globo.com/turismo-e-viagem/noticia/homem-mais-alto-do-mundo-e-mulher-mais-baixa-do-mundo-se-encontram-no-egito.ghtml)_
