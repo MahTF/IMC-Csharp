@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lblPeso = new System.Windows.Forms.Label();
             this.lblAltura = new System.Windows.Forms.Label();
             this.txtPeso = new System.Windows.Forms.TextBox();
@@ -43,117 +44,66 @@
             // 
             // lblPeso
             // 
-            this.lblPeso.AutoSize = true;
-            this.lblPeso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(19, 22);
+            resources.ApplyResources(this.lblPeso, "lblPeso");
             this.lblPeso.Name = "lblPeso";
-            this.lblPeso.Size = new System.Drawing.Size(42, 16);
-            this.lblPeso.TabIndex = 0;
-            this.lblPeso.Text = "Peso:";
             // 
             // lblAltura
             // 
-            this.lblAltura.AutoSize = true;
-            this.lblAltura.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAltura.Location = new System.Drawing.Point(19, 70);
+            resources.ApplyResources(this.lblAltura, "lblAltura");
             this.lblAltura.Name = "lblAltura";
-            this.lblAltura.Size = new System.Drawing.Size(46, 16);
-            this.lblAltura.TabIndex = 4;
-            this.lblAltura.Text = "Altura:";
             // 
             // txtPeso
             // 
-            this.txtPeso.Location = new System.Drawing.Point(175, 18);
+            resources.ApplyResources(this.txtPeso, "txtPeso");
             this.txtPeso.Name = "txtPeso";
-            this.txtPeso.Size = new System.Drawing.Size(100, 20);
-            this.txtPeso.TabIndex = 3;
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(175, 66);
+            resources.ApplyResources(this.txtAltura, "txtAltura");
             this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(100, 20);
-            this.txtAltura.TabIndex = 7;
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(175, 127);
+            resources.ApplyResources(this.btnCalcular, "btnCalcular");
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(100, 28);
-            this.btnCalcular.TabIndex = 8;
-            this.btnCalcular.Text = "Calcular!";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // lblResultado
             // 
+            resources.ApplyResources(this.lblResultado, "lblResultado");
             this.lblResultado.AutoEllipsis = true;
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(19, 184);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(75, 18);
-            this.lblResultado.TabIndex = 9;
-            this.lblResultado.Text = "Resposta";
-            this.lblResultado.Visible = false;
             // 
             // lblClassificacao
             // 
-            this.lblClassificacao.AutoSize = true;
-            this.lblClassificacao.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
-            this.lblClassificacao.Location = new System.Drawing.Point(18, 272);
+            resources.ApplyResources(this.lblClassificacao, "lblClassificacao");
             this.lblClassificacao.Name = "lblClassificacao";
-            this.lblClassificacao.Size = new System.Drawing.Size(56, 18);
-            this.lblClassificacao.TabIndex = 10;
-            this.lblClassificacao.Text = "Classe";
-            this.lblClassificacao.Visible = false;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 7F);
-            this.label1.Location = new System.Drawing.Point(67, 25);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "(ex: 73)";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 7F);
-            this.label2.Location = new System.Drawing.Point(67, 73);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "(ex: 154)";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 6.5F);
-            this.label3.Location = new System.Drawing.Point(19, 38);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 12);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Coloque somente os KG, sem vírgula";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 6.5F);
-            this.label4.Location = new System.Drawing.Point(19, 86);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 12);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Coloque sua altura sem vírgula";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 299);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -169,8 +119,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cálculo de indíce de massa corporal";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.ResumeLayout(false);
             this.PerformLayout();
 
